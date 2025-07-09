@@ -1,0 +1,38 @@
+{
+  "project": {
+    "name": "RealFlight Evolution Simulator",
+    "description": "A responsive single-page web interface showcasing RealFlight Evolution — a photorealistic RC flight simulator with VR, physics, and training modules. Designed to promote RC flight learning through safe, immersive experiences.",
+    "version": "1.0.0",
+    "author": {
+      "name": "Akash Gupta",
+      "github": "https://github.com/saysky2",
+      "linkedin": "https://www.linkedin.com/in/saysky2"
+    },
+    "files": [
+      "index.html",
+      "realflight_image.png",
+      "Khwaja_Moinuddin_Chishti_Language_University_logo.png",
+      "README.md",
+      "project.json"
+    ],
+    "features": [
+      "300+ aircraft (planes, drones, helicopters)",
+      "RealPhysics™ simulation engine",
+      "VR and multiplayer mode",
+      "Virtual instructor and mission challenges",
+      "Weather effects, terrain variety, and night mode"
+    ],
+    "technologies": [
+      "HTML5",
+      "CSS3"
+    ],
+    "hosting": {
+      "recommended": [
+        "GitHub Pages",
+        "Netlify",
+        "Vercel"
+      ]
+    },
+    "license": "MIT"
+  }
+}
