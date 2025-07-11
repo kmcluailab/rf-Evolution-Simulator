@@ -8,10 +8,12 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background-color: #f5f7fa;
+      background: #f5f7fa;
       margin: 0;
+      padding: 0;
       color: #333;
     }
+
     header {
       background-color: #283593;
       color: white;
@@ -20,46 +22,54 @@
       position: relative;
       animation: slideInDown 1s ease;
     }
+
     header img.logo {
       position: absolute;
       top: 10px;
       left: 20px;
       height: 80px;
     }
+
     main {
       max-width: 1200px;
       margin: auto;
       padding: 2em;
-      background-color: #fff;
+      background-color: #ffffff;
       animation: fadeIn 1.5s ease-in;
     }
+
+    img {
+      max-width: 100%;
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+      border: 4px solid #ddd;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
     h2 {
       color: #1a237e;
-      margin-top: 40px;
     }
+
     ul {
       padding-left: 20px;
     }
+
     li {
-      margin-bottom: 10px;
+      margin: 10px 0;
+      transition: background-color 0.3s ease;
     }
-    .image-animated {
-      display: block;
-      max-width: 90%;
-      margin: 30px auto;
-      border-radius: 10px;
-      border: 4px solid #ddd;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-      /* animation: fadeInImage 1s ease-in-out; */
+
+    li:hover {
+      background-color: #f0f4ff;
+      padding-left: 5px;
     }
-    @keyframes fadeInImage {
-      from { opacity: 0; transform: scale(0.95); }
-      to { opacity: 1; transform: scale(1); }
-    }
+
     @keyframes fadeIn {
       from { opacity: 0; }
       to { opacity: 1; }
     }
+
     @keyframes slideInDown {
       from { transform: translateY(-100%); opacity: 0; }
       to { transform: translateY(0); opacity: 1; }
@@ -67,84 +77,87 @@
   </style>
 </head>
 <body>
-  <header>
-    <img src="Khwaja_Moinuddin_Chishti_Language_University_logo.png" alt="University Logo" class="logo">
-    <h1>RealFlight Evolution - RC Flight Simulator</h1>
-  </header>
-  <main>
-    <img src="/RF-stimulator.jpg" alt="RealFlight Evolution Simulator"">
 
-    <section>
-      <h2>What is RealFlight Evolution?</h2>
-      <p>RealFlight Evolution is an advanced radio-controlled (RC) flight simulator offering over 300 aircraft and 75+ flying sites. Designed for all skill levels, it features realistic physics, immersive VR, and multiplayer support.</p>
-    </section>
+<header>
+  <img src="Khwaja_Moinuddin_Chishti_Language_University_logo.png" alt="University Logo" class="logo">
+  <h1>RealFlight Evolution - RC Flight Simulator</h1>
+</header>
 
-    <section>
-      <h2>Key Features</h2>
-      <ul>
-        <li>Extensive aircraft library including planes, helicopters, drones</li>
-        <li>Photorealistic flying sites and accurate weather simulation</li>
-        <li>RealPhysics™ engine for true-to-life flight behavior</li>
-        <li>VR & online multiplayer for immersive experiences</li>
-      </ul>
-    </section>
+<main>
+  <img src="/RF-stimulator.jpg" alt="RealFlight Evolution Simulator">
 
-    <section>
-      <h2>Benefits of Using RealFlight</h2>
-      <ul>
-        <li>Risk-free learning and practice for beginners</li>
-        <li>Cost-effective RC training without real-world damage</li>
-        <li>Improve flight precision and adapt to new aircraft</li>
-        <li>Explore new aircraft and techniques safely</li>
-      </ul>
-    </section>
+  <section>
+    <h2>What is RealFlight Evolution?</h2>
+    <p>RealFlight Evolution is an advanced radio-controlled (RC) flight simulator offering over 300 aircraft and 75+ flying sites. Designed for all skill levels, it features realistic physics, immersive VR, and multiplayer support.</p>
+  </section>
 
-    <section>
-      <h2>Diverse Aircraft Selection</h2>
-      <ul>
-        <li>Classic trainers & sport planes</li>
-        <li>Advanced scale models & EDF jets</li>
-        <li>3D helicopters & aerobatics</li>
-        <li>FPV racing quads & drones</li>
-      </ul>
-    </section>
+  <section>
+    <h2>Key Features</h2>
+    <ul>
+      <li>Extensive aircraft library including planes, helicopters, drones</li>
+      <li>Photorealistic flying sites and accurate weather simulation</li>
+      <li>RealPhysics™ engine for true-to-life flight behavior</li>
+      <li>VR & online multiplayer for immersive experiences</li>
+    </ul>
+  </section>
 
-    <section>
-      <h2>Immersive Flying Sites</h2>
-      <ul>
-        <li>Real-world inspired locations with dynamic weather</li>
-        <li>Night flying mode with realistic lighting</li>
-        <li>Terrain variation including grass, asphalt, and water</li>
-      </ul>
-    </section>
+  <section>
+    <h2>Benefits of Using RealFlight</h2>
+    <ul>
+      <li>Risk-free learning and practice for beginners</li>
+      <li>Cost-effective RC training without real-world damage</li>
+      <li>Improve flight precision and adapt to new aircraft</li>
+      <li>Explore new aircraft and techniques safely</li>
+    </ul>
+  </section>
 
-    <section>
-      <h2>Training Modes & Challenges</h2>
-      <ul>
-        <li>Virtual Flight Instructor with guided lessons</li>
-        <li>Aerobatic and combat challenge missions</li>
-        <li>FPV racing courses for speed and control</li>
-      </ul>
-    </section>
+  <section>
+    <h2>Diverse Aircraft Selection</h2>
+    <ul>
+      <li>Classic trainers & sport planes</li>
+      <li>Advanced scale models & EDF jets</li>
+      <li>3D helicopters & aerobatics</li>
+      <li>FPV racing quads & drones</li>
+    </ul>
+  </section>
 
-    <section>
-      <h2>Who Uses RealFlight?</h2>
-      <ul>
-        <li>RC hobbyists, beginners, and expert pilots</li>
-        <li>Flight schools and instructors</li>
-        <li>VR and simulation enthusiasts</li>
-        <li>Aviation fans interested in real-time training</li>
-      </ul>
-    </section>
+  <section>
+    <h2>Immersive Flying Sites</h2>
+    <ul>
+      <li>Real-world inspired locations with dynamic weather</li>
+      <li>Night flying mode with realistic lighting</li>
+      <li>Terrain variation including grass, asphalt, and water</li>
+    </ul>
+  </section>
 
-    <section>
-      <h2>How to Get Started</h2>
-      <ul>
-        <li>Available standalone or bundled with controller</li>
-        <li>Downloadable via Steam or official site</li>
-        <li>Join the online community for sharing and learning</li>
-      </ul>
-    </section>
-  </main>
+  <section>
+    <h2>Training Modes & Challenges</h2>
+    <ul>
+      <li>Virtual Flight Instructor with guided lessons</li>
+      <li>Aerobatic and combat challenge missions</li>
+      <li>FPV racing courses for speed and control</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Who Uses RealFlight?</h2>
+    <ul>
+      <li>RC hobbyists, beginners, and expert pilots</li>
+      <li>Flight schools and instructors</li>
+      <li>VR and simulation enthusiasts</li>
+      <li>Aviation fans interested in real-time training</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How to Get Started</h2>
+    <ul>
+      <li>Available standalone or bundled with controller</li>
+      <li>Downloadable via Steam or official site</li>
+      <li>Join the online community for sharing and learning</li>
+    </ul>
+  </section>
+</main>
+
 </body>
 </html>
